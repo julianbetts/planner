@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    width: 12.5%; 
+    height: 10%; 
+  }
+  
+  th {
+    height: 50px;
+  }
+  
+  th:first-child, td:first-child {
+    width: 50px;
+  }
