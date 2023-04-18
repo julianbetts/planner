@@ -70,3 +70,21 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
+.sect {
+    width: 100%;
+    display: flex;
+}
+
+.sect > * {
+    border: solid black 1px;
+}
+
+.sect textarea {
+    width: 78%;
+    
+}
+
+.sect span {
+    display: flex;
+    align-items: center;
+}
