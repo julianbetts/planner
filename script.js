@@ -1,12 +1,8 @@
 const currentEl = document.querySelector("#date")
-
-currentEl.textContent = moment().format('LL')
-
-
-
-
 var currentHour = moment().hours()
 var timeblock = document.querySelectorAll('.time-block')
+currentEl.textContent = moment().format('LL')
+
 
 timeblock.forEach(element => {
     var id = Number(element.getAttribute('id').split('-')[1])
